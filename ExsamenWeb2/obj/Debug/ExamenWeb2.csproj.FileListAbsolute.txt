@@ -88,3 +88,4 @@ C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.csproj.Gene
 C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Productos_table.resources
 C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Inventarios_table.resources
 C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Facturas_table.resources
+C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.csprojResolveAssemblyReference.cache
