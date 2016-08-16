@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ExamenWeb2.Models.Inventario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Producto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Catidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CatidadMinima)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CatidadMaxima)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GrabadoExcepto)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Producto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Catidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CatidadMinima)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CatidadMaxima)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GrabadoExcepto)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

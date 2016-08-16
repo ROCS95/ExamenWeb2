@@ -1,0 +1,58 @@
+﻿@model ExamenWeb2.Models.Inventario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Inventario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Catidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Catidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CatidadMinima)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CatidadMinima)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CatidadMaxima)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CatidadMaxima)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GrabadoExcepto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrabadoExcepto)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
