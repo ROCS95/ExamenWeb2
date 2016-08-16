@@ -83,3 +83,8 @@ C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\bin\Microsoft.Owin.Security.Twit
 C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.dll
 C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.pdb
+C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Clientes_table.resources
+C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.csproj.GenerateResource.Cache
+C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Productos_table.resources
+C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Inventarios_table.resources
+C:\Users\Robert\Desktop\ExsamenWeb2\ExsamenWeb2\obj\Debug\ExamenWeb2.Migrations.create_Facturas_table.resources
